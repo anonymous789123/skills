@@ -149,3 +149,59 @@
         max-height: 263px;
         z-index: 2;
     }
+    .section_title {
+        margin-bottom: 10px;
+        color: green;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .block_title {
+        margin-bottom: 20px;
+        color: #121212;
+        font-size: 45px;
+        font-weight: 500;
+    }
+    .section_text {
+        margin-bottom: 15px;
+        color: #333333;
+        font-size: 18px;
+        line-height: 150%;
+    }
+    /*mobile version*/
+    
+@media( max-width: 1024px ){
+    section.about_us{
+        margin-bottom: 50px;
+    }
+    section.about_us .container{
+        flex-direction: column;
+    }
+    section.about_us .about_left{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    section.about_us .about_left figure{
+        display: flex;
+        align-items: center;
+    }
+    section.about_us .about_left figure img.about_big{
+        width: 50%;
+        height: 200px;
+        max-width: 50%;
+        max-height: 200px;
+        object-fit: cover;
+        padding: 0;
+        border: none;
+    }
+    section.about_us .about_left figure img.about_small{
+        position: relative;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+        height: 200px;
+        max-width: 50%;
+        max-height: 200px;
+        object-fit: cover;
+        z-index: 2;
+    }
+}
