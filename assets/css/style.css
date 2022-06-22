@@ -209,3 +209,66 @@
         padding: 0 15px;
     }
 }
+/* passports */
+section.benefit{
+    margin-bottom: 150px;
+}
+section.benefit .benefits{
+    display: flex;
+    align-items: center;
+    perspective: 1000px;
+}
+section.benefit .benefits .benefit_item{
+    padding: 40px 30px 30px;
+    box-shadow: 0 7px 29px #64646F33;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+section.benefit .benefits .benefit_item:last-child{
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+section.benefit .benefits .benefit_item:hover{
+    transform: rotateX(30deg);
+}
+.benefit_item img.icons{
+    margin-bottom: 14px;
+}
+.benefit_item .title{
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #121212;
+    font-weight: 500;
+    font-family: var(--fontMain);
+}
+.benefit_item .text{
+    font-size: 16px;
+    color: #333333;
+}
+/*  <section class="benefits">
+        <div class="container">
+            <div class="benefits_list">
+                <div class="benefit_item">
+                    <img src="assets/images/benefit1.png" alt="" class="benefit_icon">
+                    <div class="benefit_title">Full Guide</div>
+                    <div class="benefit_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                </div>
+                <div class="benefit_item">
+                    <img src="assets/images/benefit2.png" alt="" class="benefit_icon">
+                    <div class="benefit_title">Transport</div>
+                    <div class="benefit_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                </div>
+                <div class="benefit_item">
+                    <img src="assets/images/benefit3.png" alt="" class="benefit_icon">
+                    <div class="benefit_title">Easy Book</div>
+                    <div class="benefit_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                </div>
+                <div class="benefit_item">
+                    <img src="assets/images/benefit4.png" alt="" class="benefit_icon">
+                    <div class="benefit_title">Camp Fire</div>
+                    <div class="benefit_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                </div>
+            </div>
+        </div>
+    </section>*/
