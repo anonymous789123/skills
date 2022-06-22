@@ -204,4 +204,8 @@
         object-fit: cover;
         z-index: 2;
     }
+    .container{
+        width: 100%;
+        padding: 0 15px;
+    }
 }
