@@ -25,7 +25,7 @@
         padding: 15px 0;
         top: 0;
         border-bottom: 2px solid rgb(156, 156, 156);
-        z-index: 2;
+        z-index: 3;
     }
     header .container{
         display: flex;
@@ -151,7 +151,7 @@
     }
     .section_title {
         margin-bottom: 10px;
-        color: green;
+        color: rgb(2, 75, 2);
         font-size: 18px;
         font-weight: 500;
     }
@@ -246,29 +246,70 @@ section.benefit .benefits .benefit_item:hover{
     font-size: 16px;
     color: #333333;
 }
-/*  <section class="benefits">
-        <div class="container">
-            <div class="benefits_list">
-                <div class="benefit_item">
-                    <img src="assets/images/benefit1.png" alt="" class="benefit_icon">
-                    <div class="benefit_title">Full Guide</div>
-                    <div class="benefit_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                </div>
-                <div class="benefit_item">
-                    <img src="assets/images/benefit2.png" alt="" class="benefit_icon">
-                    <div class="benefit_title">Transport</div>
-                    <div class="benefit_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                </div>
-                <div class="benefit_item">
-                    <img src="assets/images/benefit3.png" alt="" class="benefit_icon">
-                    <div class="benefit_title">Easy Book</div>
-                    <div class="benefit_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                </div>
-                <div class="benefit_item">
-                    <img src="assets/images/benefit4.png" alt="" class="benefit_icon">
-                    <div class="benefit_title">Camp Fire</div>
-                    <div class="benefit_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                </div>
-            </div>
-        </div>
-    </section>*/
+@media( max-width: 1024px ){
+
+    .section_title{
+        font-size: 16px;
+    }
+    .block_title{
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .section_text{  
+        font-size: 16px;
+    }
+
+}
+
+.images{
+    display: flex;
+   justify-content: center;
+    width: 100vw;
+
+}
+.cities{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.images a{
+display: inline-flex;
+background-color: rgb(2, 75, 2);
+color: white;
+font-size:15px;
+padding: 8px 24px;
+
+}
+.Services{
+color: rgb(2, 75, 2);;
+margin-bottom: 10px;
+font-size: 18px;
+font-weight: 500;
+}
+.headers{
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+}
+.Explore{
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+.text1 p{
+ font-size: 16px;
+ Line-height: 24px;
+}
+.pictures{
+    position: absolute;
+}
+.text1{
+flex-direction: column;
+display: flex;
+position: relative;
+width: 500px;
+padding: 50px;
+color:rgba(255, 255, 255, 1);
+
+}
